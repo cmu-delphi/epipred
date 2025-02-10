@@ -23,6 +23,7 @@ Pre-1.0.0 numbering scheme: 0.x will indicate releases, while 0.0.x will indicat
 - Fix `quantile_reg()` producing error when asked to output just median-level predictions.
 - (temporary) ahead negative is allowed for `step_epi_ahead` until we have `step_epi_shift`
 - Add `reference_date` as an argument to `epi_recipe()`
+- Add `plot_data` to `autoplot` so that forecasts can be plotted against the values they're predicting
 
 ## Bug fixes
 - Shifting no columns results in no error for either `step_epi_ahead` and `step_epi_lag`
