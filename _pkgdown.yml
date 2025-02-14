@@ -11,12 +11,12 @@ articles:
     navbar: ~
     contents:
       - epipredict
-      - preprocessing-and-models
+      - custom_epiworkflows
       - backtesting
-      - arx-classifier
       - update
   - title: Advanced methods
     contents:
+      - arx-classifier
       - articles/smooth-qr
       - panel-data
 
@@ -47,6 +47,7 @@ reference:
     contents:
       - contains("args_list")
       - contains("_epi_workflow")
+
   - title: Helper functions for Hub submission
     contents:
       - flusight_hub_formatter
