@@ -31,7 +31,6 @@ Depends:
 Imports:
     checkmate,
     cli,
-    distributional,
     dplyr,
     generics,
     ggplot2,
@@ -49,6 +48,7 @@ Imports:
     workflows (>= 1.0.0)
 Suggests:
     data.table,
+    distributional,
     epidatr (>= 1.0.0),
     fs,
     grf,
