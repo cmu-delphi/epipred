@@ -36,6 +36,7 @@ Imports:
     ggplot2,
     glue,
     hardhat (>= 1.4.0.9002),
+    lifecycle,
     magrittr,
     recipes (>= 1.0.4),
     rlang (>= 1.1.0),
