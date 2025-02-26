@@ -35,7 +35,7 @@ Imports:
     generics,
     ggplot2,
     glue,
-    hardhat (>= 1.4.0.9002),
+    hardhat (>= 1.4.1),
     lifecycle,
     magrittr,
     recipes (>= 1.0.4),
