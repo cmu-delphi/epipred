@@ -27,6 +27,7 @@ Pre-1.0.0 numbering scheme: 0.x will indicate releases, while 0.0.x will indicat
 - (temporary) ahead negative is allowed for `step_epi_ahead` until we have `step_epi_shift`
 - Add `reference_date` as an argument to `epi_recipe()`
 - Replace `dist_quantiles()` with `hardhat::quantile_pred()`
+- Allow `quantile()` to threshold to an interval if desired (#434)
 
 ## Bug fixes
 - Shifting no columns results in no error for either `step_epi_ahead` and `step_epi_lag`
